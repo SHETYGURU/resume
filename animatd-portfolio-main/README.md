@@ -38,9 +38,9 @@
   <tr>
     <td align="center">
      
-        <sub>
+      
           <b>GururajShetty</b>
-        </sub>
+      
     
     </td>
   </tr>
