@@ -37,12 +37,11 @@
  <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/PrakasRavichandran">
-        <img src="https://avatars.githubusercontent.com/u/85834102?v=4" width="100px;" alt="Prakash GitHub"/><br>
+     
         <sub>
-          <b>Prakash Ravichandran</b>
+          <b>GururajShetty</b>
         </sub>
-      </a>
+    
     </td>
   </tr>
 </table>
