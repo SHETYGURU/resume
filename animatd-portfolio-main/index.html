@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <style>
+      /* Common styles for sections */
+section {
+  background-color: #131219;; /* Change this to your desired background color */
+  padding: 50px 0;
+}
+
+/* Bordered boxes styles */
+.bordered-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.bordered-box {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border: 2px solid #333; /* Change this to your desired border color */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bordered-box img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+/* Scroll animation delay for sections */
+.section-delay {
+  animation: fadeInUp 1s;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+    </style>
+    
+    <title>Gururaj's Profile</title>
+    <link rel="stylesheet" href="assets/scss/style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/image/icon-browser.svg"
+      type="image/x-icon"
+    />
+    <link rel="apple-touch-icon" href="assets/image/icon-browser.svg" />
+    <link rel="canonical" href="http://prakashravichandran.me/blog/" />
+  </head>
+
+  <body>
+    <!--Menu-->
+    <header>
+      <div class="larguraMaxContainer">
+        <nav>
+          <img src="assets/image/guru.png" alt="Logo iuricode" style="width: 50%; margin-left: -10%;" />
+
+
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="nav-list">
+            <li><a href="#sobre">Who I am</a></li>
+            <li><a href="#projetos">Projects</a></li>
+            <li><a href="#servicos">Services</a></li>
+            <li><a href="#conhecimentos">Knowledge</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!--Home-->
+      <section id="apresentacaoPortfolio">
+        <div class="larguraMaxContainer">
+          <div class="left-image" >
+            <img  src="assets/image/profile.jpeg" alt="Left Image" width="200" height="1600" style="border: solid white 1px;border-radius: 1.5cm;margin-left: -20%;">
+          </div>
+          <div id="apresentacaoTexto">
+            <h2 class="imagem-delay">
+              Hello, I'm<br />
+              <span id="nome">Gururaj</span><br />
+              <span class="maquina-escrever">
+                Front-End Developer.  
+              </span><br />
+              <span class="maquina-escrever">
+                  (Aspiring Full Stack Devoloper...)
+              </span><br />
+              
+            </h2>
+            
+            <div style="display: flex; gap: 10%">
+              <div>
+              <a href="https://www.linkedin.com/in/gururaj-shetty-03723922a" class="button">
+                LinkedIn
+              </a>
+              </div>
+              <div>
+              <a href="https://github.com/SHETYGURU" class="button">
+                GitHub
+              </a>
+            </div>
+          </div>
+          </div>
+          <div id="apresentacaoFoto">
+            <img src="assets/image/espaco.svg" alt="foto de um espaço" id="fundo" class="imagem-espaco-delay" />
+            <img src="assets/image/iuri-flutuando.svg" alt="personagem flutuando" class="object imagem-iuri-delay" />
+          </div>
+        </div>
+        <img src="assets/image/icon-scroll.svg" width="70px" height="70px" alt="ícone mouse" class="mouse scroll-delay" />
+      </section>
+      
+
+      <!--Quem sou-->
+      <section id="sobre" >
+        <div class="larguraMaxContainer">
+          <section id="sobreMim">
+            <div id="sobreFoto">
+              <img
+                src="assets/image/iuricode.svg"
+                width="400px"
+                height="400px"
+                alt="ilustração do iuricode"
+                class="imagem-delay"
+                id="iuricode"
+              />
+              <div id="figura1" class="icon1 descricao-delay">
+                <img
+                  src="assets/image/icon-html-cor.svg"
+                  width="45px"
+                  height="45px"
+                  alt="ícone html"
+                />
+              </div>
+              <div id="figura2" class="icon2 descricao-delay">
+                <img
+                  src="assets/image/icon-css-cor.svg"
+                  width="45px"
+                  height="45px"
+                  alt="ícone css"
+                />
+              </div>
+              <div id="figura3" class="icon3 descricao-delay">
+                <img
+                  src="assets/image/icon-js-cor.svg"
+                  width="45px"
+                  height="45px"
+                  alt="ícone javascript"
+                />
+              </div>
+            </div>
+            <article id="sobreTexto">
+              <h2 class="titulo-delay">Who I'm<span>.</span></h2>
+              <p class="descricao-delay">
+                My name is Gururaj. I am a freelancer as a Front-end developer and UI Designer. I am currently studying at MITE Moodbidri and have also studied a lot on my own to learn new technologies. 
+              </p>
+              <p class="descricao-delay">
+                I started as front-end developer in 2020 and UI Designer in 2021. I see that I am on the right track because I understand the results in my developed services. 
+              </p>
+            </article>
+          </section>
+        </div>
+      </section>
+
+      <!--Projetos-->
+      <section id="projetos">
+        <div class="larguraMaxContainer">
+          <h2 class="titulo-delay">Projects <span>.</span></h2>
+          <div>
+            <article class="cards-interval">
+              <h3>Food Websites</h3>
+              
+            </article>
+
+            <article class="cards-interval">
+              <h3>Profile Card</h3>
+              
+            </article>
+
+            <article class="cards-interval">
+              <h3>Buss pass App</h3>
+              
+            </article>
+
+            <article class="cards-interval">
+              <h3>Event Websites</h3>
+              
+            </article>
+
+          
+           
+          </div><br><br><br><br><br><br>
+          <div class="larguraMaxContainer">
+            <h2 class="titulo-delay">My work <span>...</span></h2>
+            </div>
+          <br><br>
+          <div class="larguraMaxContainer titulo-delay" style="font-size: xx-large;color: #fefbfb;">
+          
+          <h3><span style="color:#6610f2;">.</span><a  style="color: #fefbfb;" href="" >Food Websites</a></h3>
+          <h3><span style="color:#6610f2;">.</span><a  style="color: #fefbfb; "href="" > Profile Card</a></h3>
+          <h3><span style="color:#6610f2;">.</span><a  style="color: #fefbfb;"  href=""> Buss Pass App</a></h3>
+          <h3><span style="color:#6610f2;">.</span><a  style="color: #fefbfb; "href=""> Event Websites</a></h3>
+          </div><br><br><br><br><br><br><br><br>
+          <a
+            href="Gururaj.resume (4) (1).docx" 
+            rel="noopener"
+            target="_blank"
+            class="descricao-delay"
+            >DOWNLOAD CV</a
+          >
+        </div>
+      </section>
+
+      <!--Serviços-->
+      <section id="servicos">
+        <div class="larguraMaxContainer">
+          <h2 class="titulo-delay">Services<span>.</span></h2>
+          <div>
+            <article class="cards-interval draw meet">
+              <img
+                src="assets/image/icon-computer.svg"
+                width="100px"
+                height="100px"
+                alt="ícone computador"
+                class="image-servicos"
+              />
+              <h3>Site Creation</h3>
+              <p>
+                Development of professional websites, web systems, blogs and virtual stores. 
+              </p>
+            </article>
+
+            <article class="cards-interval">
+              <img
+                src="assets/image/icon-image.svg"
+                width="100px"
+                height="100px"
+                alt="ícone imagem"
+                class="image-servicos"
+              />
+              <h3>Responsive Sites</h3>
+              <p>
+                Creating responsive websites for the best visualization in all resolutions. 
+              </p>
+            </article>
+
+            <article class="cards-interval">
+              <img
+                src="assets/image/icon-layers.svg"
+                width="100px"
+                height="100px"
+                alt="ícone layers"
+                class="image-servicos"
+              />
+              <h3>UI Design</h3>
+              <p>
+                Design of layouts that suit your business in a professional and faithful way in development. 
+              </p>
+            </article>
+
+            <article class="cards-interval">
+              <img
+                src="assets/image/icon-codigo.svg"
+                width="100px"
+                height="100px"
+                alt="ícone código"
+                class="image-servicos"
+              />
+              <h3>Clean Code</h3>
+              <p>
+                Strategy and monitoring for your business, making your site appear better and better in searches. 
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!--Conhecimentos-->
+      <section id="conhecimentos">
+        <div class="larguraMaxContainer">
+          <div>
+            <article id="texto-conhecimentos">
+              <h2 class="titulo-delay">Knowledge<span>.</span></h2>
+              <p class="descricao-delay mudarTextoDescricao">
+                *Hover the card to Read*
+              </p>
+            </article>
+
+            <div id="cards-conhecimentos">
+              <article class="html sairCaixa">
+                <span class="cards-nomes">HTML</span>
+                <img
+                  src="assets/image/icon-html-cor.svg"
+                  width="60px"
+                  height="60px"
+                  alt="ícone do html"
+                  class="icon-conhecimentos"
+                />
+              </article>
+              <article class="css sairCaixa">
+                <span class="cards-nomes">CSS</span>
+                <img
+                  src="assets/image/icon-css-cor.svg"
+                  width="60px"
+                  height="60px"
+                  alt="ícone do css"
+                  class="icon-conhecimentos"
+                />
+              </article>
+              <article class="js sairCaixa">
+                <span class="cards-nomes">Javascript</span>
+                <img
+                  src="assets/image/icon-js-cor.svg"
+                  width="60px"
+                  height="60px"
+                  alt="ícone do javascript"
+                  class="icon-conhecimentos"
+                />
+              </article>
+              <article class="cards-interval sass sairCaixa">
+                <span class="cards-nomes">NodeJS</span>
+                <img
+                  src="assets/image/icons8-nodejs.svg"
+                  width="60px"
+                  height="60px"
+                  alt="ícone do sass"
+                  class="icon-conhecimentos"
+                />
+                
+              </article>
+              <article class="cards-interval react sairCaixa">
+                <span class="cards-nomes-baixo">FireBase</span>
+                <img
+                  src="assets/image/icons8-firebase.svg"
+                  width="60px"
+                  height="60px"
+                  alt="ícone do react"
+                  class="icon-conhecimentos"
+                />
+              </article>
+              <!-- <article class="cards-interval react sairCaixa">
+                <span class="cards-nomes-baixo">Figma</span>
+                <img
+                  src="assets/image/figma.svg"
+                  width="60px"
+                  height="60px"
+                  alt="ícone do figma"
+                  class="icon-conhecimentos"
+                /> -->
+              </article>
+              <article class="cards-interval next sairCaixa">
+                <span class="cards-nomes-baixo">Java</span>
+                <img
+                  src="assets/image/icons8-java.svg"
+                  width="60px"
+                  height="60px"
+                  alt="ícone do next"
+                  class="icon-conhecimentos"
+                />
+              </article>
+              <article class="cards-interval styled sairCaixa">
+                <span class="cards-nomes-baixo aumento-hover"
+                  >Android Studio</span
+                >
+                <img
+                  src="assets/image/icons8-android-studio.svg"
+                  width="60px"
+                  height="60px"
+                  alt="ícone do styled"
+                  class="icon-conhecimentos"
+                />
+              </article>
+              <article class="cards-interval tailwind sairCaixa">
+                <span class="cards-nomes-baixo">Figma</span>
+                <img
+                  src="assets/image/matlab.svg"
+                  width="60px"
+                  height="60px"
+                  alt="ícone do tailwind"
+                  class="icon-conhecimentos"
+                />
+                
+              </article>
+            </div>
+          </div>
+        </div>
+        <section id="conhecimentos">
+          <div class="larguraMaxContainer">
+            <div>
+              <article id="texto-conhecimentos">
+                <h2 class="titulo-delay"><span>...</span></h2>
+                <p class="descricao-delay mudarTextoDescricao">
+                  <!-- *Hover the card to Read* -->
+                </p>
+              </article>
+  
+              <div id="cards-conhecimentos">
+                <article class="html sairCaixa">
+                  <span class="cards-nomes">My SqlL</span>
+                  <img
+                    src="assets/image/icons8-mysql.svg"
+                    width="60px"
+                    height="60px"
+                    alt="ícone do html"
+                    class="icon-conhecimentos"
+                  />
+                </article>
+                <article class="css sairCaixa">
+                  <span class="cards-nomes">ReactJs</span>
+                  <img
+                    src="assets/image/icons8-react.svg"
+                    width="60px"
+                    height="60px"
+                    alt="ícone do css"
+                    class="icon-conhecimentos"
+                  />
+                </article>
+                <article class="js sairCaixa">
+                  <span class="cards-nomes">Flutter</span>
+                  <img
+                    src="assets/image/icons8-flutter.svg"
+                    width="60px"
+                    height="60px"
+                    alt="ícone do javascript"
+                    class="icon-conhecimentos"
+                  />
+                </article>
+                <article class="cards-interval sass sairCaixa">
+                  <span class="cards-nomes">Python</span>
+                  <img
+                    src="assets/image/icons8-python.svg"
+                    width="60px"
+                    height="60px"
+                    alt="ícone do sass"
+                    class="icon-conhecimentos"
+                  />
+                  
+                </article>
+                <article class="cards-interval react sairCaixa">
+                  <span class="cards-nomes-baixo">C/C++</span>
+                  <img
+                    src="assets/image/icons8-c.svg"
+                    width="60px"
+                    height="60px"
+                    alt="ícone do react"
+                    class="icon-conhecimentos"
+                  />
+                </article>
+                <!-- <article class="cards-interval react sairCaixa">
+                  <span class="cards-nomes-baixo">Figma</span>
+                  <img
+                    src="assets/image/figma.svg"
+                    width="60px"
+                    height="60px"
+                    alt="ícone do figma"
+                    class="icon-conhecimentos"
+                  /> -->
+                
+                <article class="cards-interval styled sairCaixa">
+                  <span class="cards-nomes-baixo aumento-hover"
+                    >GitHub</span
+                  >
+                  <img
+                    src="assets/image/icons8-github.svg"
+                    width="60px"
+                    height="60px"
+                    alt="ícone do styled"
+                    class="icon-conhecimentos"
+                  />
+                
+              </div>
+            </div>
+          </div>
+     
+     
+
+
+
+
+
+
+</section>
+<!-- ... (Rest of your HTML code) ... -->
+
+    </main>
+
+    <!--Rodapé-->
+    <footer class="footer">
+      <h2>Hello There!🌎</h2>
+      <p>
+        If you want to chat with me, don't hesitate to send me a message. 
+      </p>
+
+      <a href="mailto:shettygururaj279@gmail.com">💌 Mail Me</a>
+
+      <div>
+        
+        <a
+          href="https://www.linkedin.com/in/prakash-ravichandran-8962701ba/" 
+          target="_blank"
+          rel="noopener"
+        >
+          💼 Linkedin
+        </a>
+        <a
+          href="https://www.linkedin.com/in/gururaj-shetty-03723922a"
+          target="_blank"
+          rel="noopener"
+        >
+          <!-- 🌈 Instagram
+        </a>
+        <a href="https://github.com/SHETYGURU" target="_blank" rel="noopener"> -->
+          🐱 GitHub
+        </a>
+      </div>
+
+     
+    </footer>
+
+    <!--Script da animação de Scroll-->
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+    <!--Scripts-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
