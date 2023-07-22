@@ -39,9 +39,8 @@
     <td align="center">
      
       
-          <b>GururajShetty</b>
+         GururajShetty
       
-    
-    </td>
+
   </tr>
 </table>
